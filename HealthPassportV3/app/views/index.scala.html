@@ -1,0 +1,30 @@
+@(message: String)
+
+<html>
+<head>
+	<title>Health Passport</title>
+	<link rel="stylesheet" type="text/css" media="screen" href='@routes.Assets.at("stylesheets/bootstrap.min.css")'>
+</head>
+<body>
+	<h2>Health Passport</h2>
+	<div class="background">
+	<video id="video" preload="auto" autoplay="true" loop="loop" muted="muted">
+	<source src='@routes.Assets.at("videos/pulse.mp4")' type="video/mp4">	
+	</video>
+	</div>
+	<div class="container">
+	<img src="@routes.Assets.at("images/png2.png")">
+		<form action=@routes.Application.details() method="POST">
+			<div class="form-input">
+				<input type="text" name="username" placeholder="Email-ID or Mobile no">
+			</div>
+			<div>
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<input type="submit" name="submit" value="Login" class="btn-login">
+			<input type="submit" name="submit" value="Register" class="btn-register">
+			<br><a href="">Forgot password?</a>
+		</form>
+	</div>
+</body>
+</html>

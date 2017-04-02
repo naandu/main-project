@@ -1,0 +1,37 @@
+h1{
+	padding-top: 30px;
+	padding-left: 30px;
+	font-family: arial;
+	color: #343434;
+	font-size: 60px;
+}
+
+.line{
+	padding-left: 30px;
+	color: #747a84;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: normal;
+}
+
+.box{
+	width: 600px;
+	height: 300px;
+    background-color: #EEEEEE;
+	border-radius: 7px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.btn-login{
+	border-style: none;
+	color: white;
+	border-radius: 2px;
+	padding:  10px 50px;
+	color: white;
+	background-color: #4076AC;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-family: arial;
+	font-weight: bold;
+}

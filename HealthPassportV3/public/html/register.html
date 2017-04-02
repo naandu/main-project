@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/register.css">
+</head>
+
+<body>
+	<h1>Create your Account</h1> 
+	<div class="spinner"></div>
+	<div class="spinner1"></div>
+	<img src="../images/portal2.png">
+	<div class="Registration">
+	<form action="../../register" method="post">
+		<input type="text" name="fn" id="name" placeholder="First Name">
+		<input type="text" name="ln" id="name" placeholder="Last Name"><br>
+		<input type="text" name="email" id="others" placeholder="Email ID"><br>
+		<input type="password" name="passwd" id="others" placeholder="Password"><br>
+		<input type="password" name="repasswd" id="others" placeholder="Re-type Password"><br>
+		<div class="select">
+		<select name="gender" class="details">
+    		<option disabled selected>Gender</option>
+    		<option >Male</option>
+    		<option>Fe-male</option>
+    		<option>Other</option>
+		</select>
+		<input type="text" name="mno" class="details" placeholder="Mobile no">
+		</div><br>
+		<div class="button">
+			<input type="submit" value="Register" class="register">
+		</div>
+	</form>
+	</div>
+</body>
+
+
+</html>
